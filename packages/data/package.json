@@ -1,0 +1,8 @@
+{
+  "name": "@carta-digital/data",
+  "version": "0.0.1",
+  "main": "src/data.ts",
+  "exports": {
+    ".": "./src/data.ts"
+  }
+}
