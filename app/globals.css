@@ -124,6 +124,37 @@ body {
     0 8px 24px rgb(15 23 42 / 0.04);
 }
 
+.public-menu-theme {
+  --color-background: #f5f5f5;
+  --color-background-rgb: 245 245 245;
+  --color-bg-selected: #f6e1e2;
+  --color-foreground: #1f2937;
+  --color-category: #21111199;
+  --color-dish: #6b7280;
+  --color-muted: #6b7280;
+  --color-primary: #ea2831;
+  --color-primary-rgb: 234 40 49;
+  --color-accent: #009e60;
+  --color-border: #e5e7eb;
+  --color-surface: #ffffff;
+  --color-cancel: #f3f4f6;
+  --color-border-box: #d1d5dc;
+  color-scheme: light;
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+
+.scrollbar-hide,
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar,
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 .dashboard-status-toggle {
   display: inline-flex;
   height: 2.25rem;
@@ -227,6 +258,24 @@ body {
     box-shadow:
       0 1px 0 rgb(255 255 255 / 0.03) inset,
       0 16px 40px rgb(0 0 0 / 0.22);
+  }
+
+  .public-menu-theme {
+    --color-background: #000000;
+    --color-background-rgb: 0 0 0;
+    --color-bg-selected: #5b1216;
+    --color-foreground: #f4eeee;
+    --color-category: #b9abab;
+    --color-dish: #cbbcbc;
+    --color-muted: #a89797;
+    --color-primary: #ff333d;
+    --color-primary-rgb: 255 51 61;
+    --color-accent: #f4a22a;
+    --color-border: #8a171d;
+    --color-surface: #3a090b;
+    --color-cancel: #4b1013;
+    --color-border-box: #5f1519;
+    color-scheme: dark;
   }
 
   .dashboard-status-toggle.is-on {
