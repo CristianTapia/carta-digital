@@ -142,6 +142,7 @@ body {
   color-scheme: light;
   background: var(--color-background);
   color: var(--color-foreground);
+  font-feature-settings: normal;
 }
 
 .scrollbar-hide,
